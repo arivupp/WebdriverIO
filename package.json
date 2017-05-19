@@ -1,0 +1,32 @@
+{
+  "name": "personalization",
+  "version": "1.0.0",
+  "description": "Personalization tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "seleniumInstall": "selenium-standalone install",
+    "seleniumStart": "selenium-standalone start",
+    "wdio": "wdio",
+    "uitest": "run-p -r seleniumStart wdio"
+  },
+  "author": "Arivuchelvan Pandian",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.24.1",
+    "babel-runtime": "^6.11.6",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^6.0.0",
+    "chai-enzyme": "^0.6.1",
+    "chai-string": "^1.3.0",
+    "selenium-standalone": "^6.1.0",
+    "wdio-mocha-framework": "^0.5.9",
+    "wdio-sauce-service": "^0.3.1",
+    "wdio-teamcity-reporter": "^1.1.1",
+    "webdriverio": "^4.6.2"
+  }
+}
